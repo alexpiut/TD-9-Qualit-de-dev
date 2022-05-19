@@ -10,6 +10,10 @@ namespace TD_9_Qualité_de_dev
             res = -x;
             return res;
         }
+        public static double MoyenneDeuxEntiers(int x1, int x2)
+        {
+            return (x1 + x2) / 2.00;
+        }
         public static int AdditionDeuxEntiers (int nb1, int nb2)
         {
             int res;
@@ -30,6 +34,7 @@ namespace TD_9_Qualité_de_dev
             Console.WriteLine(AdditionDeuxEntiers(2, 3));
             Console.WriteLine(ProduitDeuxEntiers(6, 3));
             Console.WriteLine(NombreOppose(-7));
+            Console.WriteLine(MoyenneDeuxEntiers(4, 5));
         }
     }
 }
