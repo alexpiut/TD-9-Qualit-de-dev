@@ -26,6 +26,7 @@ namespace TD_9_Qualité_de_dev
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Coucou je te vois :)");
             Console.WriteLine(AdditionDeuxEntiers(2, 3));
             Console.WriteLine(ProduitDeuxEntiers(6, 3));
             Console.WriteLine(NombreOppose(-7));
